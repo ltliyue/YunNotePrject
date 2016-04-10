@@ -1,0 +1,99 @@
+10
+
+dir
+21
+http://code.taobao.org/svn/YunNote/YunNotePrject/res
+http://code.taobao.org/svn/YunNote
+
+
+
+2015-03-11T09:25:09.160365Z
+21
+ltliyue
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b00489c7-b664-477c-b1b3-b82a9b6a5f14
+
+
+
+
+
+
+0
+
+.DS_Store
+file
+
+
+
+
+2015-05-04T01:20:14.000000Z
+6688b03a145d382535b641a084343317
+2015-02-18T08:29:57.358382Z
+3
+
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8196
+
+anim
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+values
+dir
+
+values-w820dp
+dir
+

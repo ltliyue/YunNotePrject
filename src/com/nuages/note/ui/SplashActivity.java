@@ -1,0 +1,51 @@
+package com.nuages.note.ui;
+
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import cn.bmob.v3.Bmob;
+import cn.trinea.android.common.util.PreferencesUtils;
+
+import com.nuages.note.R;
+import com.nuages.note.util.BaseTools;
+
+public class SplashActivity extends Activity {
+
+//	private static final String APPID = "f58081606f6b5bf670450416367217fa";
+	private static final String APPID = "365f570350c6ea3902b7bff5c2090f45";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		PreferencesUtils.PREFERENCE_NAME = getPackageName();
+		// 使用时请将第二个参数Application ID替换成你在Bmob服务器端创建的Application ID
+		Bmob.initialize(this, APPID);
+		setContentView(R.layout.activity_splash);
+		BaseTools.IMAGE_CACHE.initData(this, "image");
+//		mHandler.sendEmptyMessageDelayed(GO_LOGIN, 3000);
+		mHandler.sendEmptyMessage(GO_LOGIN);
+	}
+
+	private static final int GO_HOME = 100;
+	private static final int GO_LOGIN = 200;
+
+	@SuppressLint("HandlerLeak")
+	private Handler mHandler = new Handler() {
+		@Override
+		public void handleMessage(Message msg) {
+			switch (msg.what) {
+			case GO_HOME:
+				break;
+			case GO_LOGIN:
+				Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+				startActivity(intent);
+				finish();
+				break;
+			}
+		}
+	};
+
+}

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/YunNote/!svn/ver/21/YunNotePrject/src/com/nuages/note/takepic
+END
+ImageGridActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/YunNote/!svn/ver/21/YunNotePrject/src/com/nuages/note/takepic/ImageGridActivity.java
+END
+ImageItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/ImageItem.java
+END
+ImageGridAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/ImageGridAdapter.java
+END
+AlbumHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/AlbumHelper.java
+END
+ImageBucketAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/ImageBucketAdapter.java
+END
+Bimp.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/Bimp.java
+END
+NoScrollGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/NoScrollGridView.java
+END
+TestPicActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/YunNote/!svn/ver/21/YunNotePrject/src/com/nuages/note/takepic/TestPicActivity.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/FileUtils.java
+END
+ImageBucket.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/ImageBucket.java
+END
+BitmapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/BitmapCache.java
+END
+PhotoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/YunNote/!svn/ver/17/YunNotePrject/src/com/nuages/note/takepic/PhotoActivity.java
+END
